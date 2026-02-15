@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="petal-a" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8446D"/>
+      <stop offset="100%" stop-color="#C2185B"/>
+    </linearGradient>
+    <linearGradient id="petal-b" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D63B63"/>
+      <stop offset="100%" stop-color="#A01548"/>
+    </linearGradient>
+    <linearGradient id="petal-c" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#E8446D"/>
+      <stop offset="100%" stop-color="#C2185B"/>
+    </linearGradient>
+    <linearGradient id="petal-d" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D63B63"/>
+      <stop offset="100%" stop-color="#A01548"/>
+    </linearGradient>
+  </defs>
+  <!-- Top petal -->
+  <polygon points="50,8 62,42 50,50 38,42" fill="url(#petal-a)"/>
+  <!-- Right petal -->
+  <polygon points="92,50 58,62 50,50 58,38" fill="url(#petal-b)"/>
+  <!-- Bottom petal -->
+  <polygon points="50,92 38,58 50,50 62,58" fill="url(#petal-c)"/>
+  <!-- Left petal -->
+  <polygon points="8,50 42,38 50,50 42,62" fill="url(#petal-d)"/>
+  <!-- Center dot -->
+  <circle cx="50" cy="50" r="4" fill="#fff" opacity="0.85"/>
+</svg>
