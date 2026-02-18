@@ -46,13 +46,13 @@ export default function Footer() {
                         <Link href="/" className="flex items-center gap-2 mb-4 group">
                             <Image
                                 src="/logo.svg"
-                                alt="Viaja logo"
+                                alt="VenezueLautentica logo"
                                 width={28}
                                 height={28}
                                 className="w-7 h-7 transition-transform group-hover:rotate-90 duration-500"
                             />
                             <span className="font-[family-name:var(--font-display)] font-bold text-xl tracking-tight text-primary-dark italic">
-                                Viaja
+                                VenezueLautentica
                             </span>
                         </Link>
                         <p className="text-sm text-text-muted leading-relaxed max-w-xs mb-6">
@@ -115,7 +115,7 @@ export default function Footer() {
 
                 <div className="mt-12 pt-6 border-t border-line flex flex-col sm:flex-row items-center justify-between gap-3">
                     <p className="text-xs text-text-muted">
-                        © {new Date().getFullYear()} Viaja · Turismo Gastronómico. Todos los derechos reservados.
+                        © {new Date().getFullYear()} VenezueLautentica · Turismo Gastronómico. Todos los derechos reservados.
                     </p>
                     <p className="text-xs text-text-muted">
                         Hecho con ❤️ desde Colonia Tovar

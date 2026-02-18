@@ -70,7 +70,7 @@ export default function ItineraryPage({ params }: ItineraryPageProps) {
                                 if (navigator.share) {
                                     navigator.share({
                                         title: 'Mi itinerario en Viaja',
-                                        text: 'Mira mi plan gastronómico en Viaja',
+                                        text: 'Mira mi plan gastronómico en VenezueLautentica',
                                         url: window.location.href,
                                     }).catch(() => { });
                                 }

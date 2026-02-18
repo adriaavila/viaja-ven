@@ -16,7 +16,7 @@ type Channel = 'whatsapp' | 'email' | 'web';
 function buildWhatsAppMessage(itinerary: Itinerary | null): string {
     if (!itinerary) return '';
     const lines = [
-        `¡Hola! Me gustaría confirmar disponibilidad para mi plan en Viaja.`,
+        `¡Hola! Me gustaría confirmar disponibilidad para mi plan en VenezueLautentica.`,
         ``,
         `📅 Fecha: ${itinerary.date}`,
         `👥 Personas: ${itinerary.groupSize}`,

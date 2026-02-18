@@ -228,7 +228,7 @@ export default function HomePage() {
         {/* ── Social proof / stats ── */}
         <section ref={whyRef} className="reveal max-w-7xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
           <div className="text-center mb-12">
-            <p className="text-xs font-semibold text-primary uppercase tracking-widest mb-2">¿Por qué Viaja?</p>
+            <p className="text-xs font-semibold text-primary uppercase tracking-widest mb-2">¿Por qué VenezueLautentica?</p>
             <h2 className="font-heading font-bold text-2xl sm:text-3xl text-gray-900">
               Todo en un solo lugar
             </h2>

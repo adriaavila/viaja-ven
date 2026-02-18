@@ -24,7 +24,7 @@ const playfair = Playfair_Display({
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://viaja.ven";
 
 export const metadata: Metadata = {
-  title: "Viaja · Turismo Gastronómico",
+  title: "VenezueLautentica · Turismo Gastronómico",
   description:
     "Planifica tu día perfecto en Colonia Tovar. Gastronomía, cafés, cervezas artesanales y experiencias locales, organizadas en un solo plan.",
   metadataBase: new URL(siteUrl),
@@ -33,17 +33,17 @@ export const metadata: Metadata = {
     apple: "/apple-icon.png",
   },
   openGraph: {
-    title: "Viaja · Turismo Gastronómico",
+    title: "VenezueLautentica · Turismo Gastronómico",
     description:
       "Planifica tu día perfecto en Colonia Tovar. Gastronomía, cafés, cervezas artesanales y experiencias locales.",
     url: siteUrl,
-    siteName: "Viaja",
+    siteName: "VenezueLautentica",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Viaja – Turismo Gastronómico en Colonia Tovar",
+        alt: "VenezueLautentica – Turismo Gastronómico en Colonia Tovar",
       },
     ],
     locale: "es_VE",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Viaja · Turismo Gastronómico",
+    title: "VenezueLautentica · Turismo Gastronómico",
     description:
       "Planifica tu día perfecto en Colonia Tovar. Gastronomía, cafés, cervezas artesanales y experiencias locales.",
     images: ["/og-image.png"],

@@ -37,18 +37,18 @@ export default function Header() {
 
     return (
         <header
-            className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ease-in-out ${isTransparent
-                    ? 'bg-transparent border-transparent'
-                    : 'bg-white/70 backdrop-blur-xl border-b border-white/20 shadow-sm supports-[backdrop-filter]:bg-white/60'
-                }`}
+            className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ease-in-out ${isTransparent
+                ? 'bg-transparent border-transparent'
+                : 'bg-white/70 backdrop-blur-xl border-b border-white/20 shadow-sm supports-[backdrop-filter]:bg-white/60'
+                } ${isScrolled ? 'h-10' : 'h-14'}`}
         >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 h-20 md:h-24 flex items-center justify-between transition-[height] duration-300">
+            <div className={`max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-full`}>
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2.5 group">
                     <div className={`relative transition-all duration-500 ${isTransparent ? 'brightness-0 invert' : ''}`}>
                         <Image
                             src="/logo.svg"
-                            alt="Viaja logo"
+                            alt="VenezueLautentica logo"
                             width={32}
                             height={32}
                             className="w-8 h-8 transition-transform group-hover:rotate-[360deg] duration-700"
@@ -59,7 +59,7 @@ export default function Header() {
                         className={`font-[family-name:var(--font-display)] font-bold text-xl tracking-tight italic transition-colors duration-300 ${isTransparent ? 'text-white' : 'text-primary-dark'
                             }`}
                     >
-                        Viaja
+                        VenezueLautentica
                     </span>
                 </Link>
 
@@ -72,8 +72,8 @@ export default function Header() {
                                 key={item.href}
                                 href={item.href}
                                 className={`relative text-sm font-medium transition-colors hover-underline ${isTransparent
-                                        ? 'text-white/90 hover:text-white'
-                                        : isActive ? 'text-primary' : 'text-gray-600 hover:text-primary'
+                                    ? 'text-white/90 hover:text-white'
+                                    : isActive ? 'text-primary' : 'text-gray-600 hover:text-primary'
                                     }`}
                             >
                                 {item.label}
@@ -88,8 +88,8 @@ export default function Header() {
                         href="/plan"
                         size="sm"
                         className={`transition-all duration-300 ${isTransparent
-                                ? '!bg-white/20 !backdrop-blur-md !border-white/30 !text-white hover:!bg-white hover:!text-primary-dark shadow-lg'
-                                : ''
+                            ? '!bg-white/20 !backdrop-blur-md !border-white/30 !text-white hover:!bg-white hover:!text-primary-dark shadow-lg'
+                            : ''
                             }`}
                     >
                         Crear mi plan
@@ -99,8 +99,8 @@ export default function Header() {
                 {/* Mobile hamburger */}
                 <button
                     className={`md:hidden p-2 rounded-lg transition-colors cursor-pointer ${isTransparent
-                            ? 'text-white hover:bg-white/10'
-                            : 'text-gray-900 hover:bg-black/5'
+                        ? 'text-white hover:bg-white/10'
+                        : 'text-gray-900 hover:bg-black/5'
                         }`}
                     onClick={() => setMobileOpen(!mobileOpen)}
                     aria-label={mobileOpen ? 'Cerrar menú' : 'Abrir menú'}
