@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Viaja Ven
 
-## Getting Started
+Plataforma web de turismo gastronómico centrada en experiencias locales, rutas temáticas y planificación de recorridos en **Colonia Tovar**.
 
-First, run the development server:
+## Qué es este proyecto
+
+Viaja Ven propone una forma más curada de descubrir destinos: mezcla exploración, gastronomía y planificación en una sola experiencia digital.
+
+## El reto
+
+El reto principal fue **unir inspiración y utilidad en la misma interfaz**.
+
+En turismo, muchas webs inspiran pero no ayudan a decidir; otras informan pero no emocionan. Aquí el desafío fue combinar:
+
+- una primera impresión aspiracional
+- exploración rápida de experiencias
+- organización por rutas temáticas
+- interacción suficiente para que el usuario sienta que ya está armando su plan
+
+## Cómo lo resolví
+
+- Diseñé una home con hero narrativo y microanimaciones para elevar la percepción del destino.
+- Organicé las experiencias con tarjetas visuales, ratings y categorías.
+- Incorporé rutas temáticas y lógica de “plan” para acercar la experiencia a una herramienta útil.
+- Trabajé una estética cálida y editorial para reforzar la identidad gastronómica del lugar.
+
+## Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Componentes UI personalizados
+
+## Lo que hace valioso este proyecto
+
+Este proyecto demuestra capacidad para diseñar productos donde **contenido, descubrimiento y conversión conviven**. No es solo una landing: es una experiencia orientada a exploración y decisión.
+
+## Aprendizajes
+
+- En turismo, el diseño debe vender emoción sin perder claridad.
+- Las rutas guiadas reducen fricción cuando hay muchas opciones.
+- Los detalles interactivos elevan mucho la percepción de calidad del producto.
+
+## Desarrollo local
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Enlace del proyecto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Repositorio: https://github.com/adriaavila/viaja-ven
