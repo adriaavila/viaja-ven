@@ -2,6 +2,8 @@
 
 Plataforma web de turismo gastronómico centrada en experiencias locales, rutas temáticas y planificación de recorridos en **Colonia Tovar**.
 
+**En vivo:** https://viaja-ven.vercel.app · **Categoría:** Web app · **Estado:** en producción
+
 ## Qué es este proyecto
 
 Viaja Ven propone una forma más curada de descubrir destinos: mezcla exploración, gastronomía y planificación en una sola experiencia digital.
@@ -52,3 +54,8 @@ npm run dev
 ## Enlace del proyecto
 
 - Repositorio: https://github.com/adriaavila/viaja-ven
+
+---
+
+**Construido por [creativ3](https://allok.fun)** — software y automatización para negocios.
+[Ver el portafolio](https://allok.fun/projects) · [Pedir cotización](https://allok.fun/cotizar)
